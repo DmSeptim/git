@@ -1,5 +1,57 @@
+body{
+    margin: 0;
+    
+}
 
+.img{
+    width: 100%;
+}
 .title{
     text-transform: uppercase;
     text-align: center;
+}
+.github{
+    background-color: antiquewhite;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.github__title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+.github__list, .deploy__list{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+
+}
+
+.github__item, .deploy__item{
+    display: flex;
+
+    align-items: center;
+    gap: 15px;
+    background-color: azure;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px white;;
+}
+
+.deploy{
+    background-color: bisque;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.deploy__title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
 }
